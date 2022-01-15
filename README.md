@@ -1,6 +1,6 @@
 # shopify_frontend_challenge_Jan2022
 
-<img style = "text: center;"src ="promo.png" width = 310></img>
+<img src ="promo.png" width = 310></img>
 
 
 hello fellow shopify employee.
