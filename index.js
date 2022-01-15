@@ -19,7 +19,7 @@ async function getPics(){
 function pulse() {
     $('.heart').animate({
         fontSize: '30px', 
-    }, 150, function() {
+    }, 80, function() {
         $('.heart').animate({
             fontSize: '20px', 
         }, 120, function() {
@@ -47,14 +47,9 @@ function usePics(data){
 
 (function ($) {
 
-	$( "img" ).hover(function() {
-	  console.log($(this).innerHTML)
-	});
-
 	$(document).ready(function() {
 		getPics()	
 	});
-
 	$(".heart").click(function(){
 		if ($(this).hasClass("like")){
 			$(this).removeClass("like")
@@ -63,10 +58,6 @@ function usePics(data){
 			pulse();
 			$(this).addClass("like")
 		}
-
-
-
 	})
-
 })(jQuery);
 
