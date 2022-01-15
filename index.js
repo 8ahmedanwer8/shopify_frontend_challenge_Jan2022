@@ -1,7 +1,3 @@
-var body = document.getElementById("body");
-var gui = document.getElementById("gui");
-
-
 
 async function getPics(){
 	carouselDiv = $(".carousel-inner")
